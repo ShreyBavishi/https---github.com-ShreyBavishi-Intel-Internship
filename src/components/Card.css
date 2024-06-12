@@ -1,0 +1,80 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin:1em 1em;
+    width:25%;
+    height:400px;
+    font-size: 0.75em;
+    position: relative;
+    border:1px solid grey;
+    border-radius:  2em;
+    box-shadow: gray 0.5em 0.5em 1em ;
+}
+
+.vacancy{
+    position: absolute;
+    /* margin-top: 1em; */
+    background-color: aliceblue;
+    border: 1px solid black;
+    padding: 0.1em;
+    margin: 0.75em;
+    height:1.4em;
+    font-size: 0.9em;
+    font-weight: bold;
+}
+.mainimg{
+    width:100%;
+    height:25em;
+    border-radius: 1em;
+}
+.rating{
+    margin-top: 0.5em;
+    margin-left: 1em;
+    width:100%;
+    display: flex;
+    font-size: small;
+}
+.rating>span{
+    margin:0em 0.1em;
+}
+.star{
+    width: 15px;
+    height: 15px;
+}
+.Title{
+    margin-top: 0.5em;
+    font-weight: bold;
+    margin-left:1em;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    font-size: larger;
+
+}
+
+.btn{
+    margin-top:0.5em;
+    margin-left: 1em;
+    background-color: #3f3d3d;
+    padding:0.25em;
+    height: 2em;
+    color:white;
+    border-radius: 1.2em;
+
+}
+
+.btn:hover{
+    color:black;
+    background-color: white;
+    transition: 0.75s;
+}
+
+
+

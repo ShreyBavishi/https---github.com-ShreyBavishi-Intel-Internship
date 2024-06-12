@@ -1,23 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
-
+import NavBar from './components/NavBar';
+import Card from './components/Card';
+import health from './images/HealthCare.webp';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <NavBar></NavBar>
+      <Card slot = "0" img={health} rating="(3)" reviewCnt="50"  country="India" price="2500" title="HealthCare Facilities"></Card>
     </div>
   );
 }
